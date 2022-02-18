@@ -1,0 +1,39 @@
+* {
+	font-family: 'Comfortaa', serif;
+	text-align: center;
+	font-weight: normal;
+	/* border: 1px solid black; */
+	max-width: 100vw;
+	color: greenyellow;
+}
+a {
+	display: block;
+	text-decoration: none;
+	color: greenyellow;
+	font-weight: bold;
+	font-size: large;
+	padding-top: 10px;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	padding: 10px;
+	color: greenyellow;
+}
+
+.whiteBk {
+	background: black;
+	padding-top: 0px;
+	padding-bottom: 1em;
+}
+
+.exerciseName {
+	margin: 0px;
+	flex-wrap: wrap;
+	align-self: center;
+}
+.pageTitle {
+	padding-top: 6%;
+	margin: 0px;
+}

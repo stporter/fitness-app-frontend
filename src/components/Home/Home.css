@@ -1,0 +1,57 @@
+.title {
+	font-size: 4.5em;
+	font-weight: normal;
+	display: flex;
+	justify-content: center;
+	padding-top: 20px;
+	margin-bottom: 10px;
+	color: greenyellow;
+	animation: heartBeat;
+	animation-duration: 2s;
+}
+
+.homeNav {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding: 5px;
+	margin-top: 4%;
+}
+
+li {
+	list-style: none;
+	font-size: 1.7em;
+	padding: 3%;
+	text-transform: uppercase;
+}
+li :hover {
+	text-decoration: underline;
+}
+
+a {
+	text-decoration: none;
+	color: greenyellow;
+}
+body {
+	background-color: black;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100vh;
+}
+
+.homeLogo {
+	width: 28%;
+	max-width: 250px;
+	animation: rotateIn;
+	animation-duration: 2s;
+}
+
+@media (max-width: 700px) {
+	.homeNav {
+		display: flex;
+		flex-direction: column;
+	}
+	.title {
+		font-size: 4em;
+	}
+}

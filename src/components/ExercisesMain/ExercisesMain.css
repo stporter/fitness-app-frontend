@@ -1,0 +1,48 @@
+.exercisesContainer {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	grid-auto-rows: minmax(200px, 1fr);
+	grid-gap: 4px;
+	margin: 10px;
+	margin-left: 28%;
+	margin-right: 3%;
+}
+
+.exerciseCard {
+	border-radius: 10px;
+	display: grid;
+	max-width: 250px;
+	justify-content: center;
+	margin: 0.5em;
+	background: grey;
+	width: auto;
+	padding: 5px;
+}
+
+.exerciseImage {
+	height: 170px;
+	align-items: center;
+	display: flex;
+	max-width: 100%;
+}
+
+.cardImage img {
+	width: 100%;
+	height: 100%;
+	border-radius: 5%;
+}
+
+.cardTitle {
+	display: flex;
+	font-size: 14px;
+	overflow-wrap: normal;
+	flex-direction: row;
+	padding: 5px;
+	justify-content: space-between;
+	width: 95%;
+}
+
+.exerciseDirections {
+	margin: 0% 10%;
+	line-height: 24px;
+}

@@ -1,0 +1,35 @@
+.myCard {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.headshotImg {
+	max-width: 150px;
+	padding: 50px;
+}
+.aboutBody {
+	text-align: left;
+	padding: 0% 15% 1% 15%;
+}
+
+.linkedIn {
+	padding: 0px;
+}
+h4 {
+	font-weight: bold;
+	margin: 5px;
+}
+
+.subtext {
+	font-style: italic;
+	font-weight: bold;
+	font-size: larger;
+	margin-top: 5px;
+	margin-bottom: 6%;
+	color: greenyellow;
+}
+
+.aboutBody {
+	font-size: 20px;
+}
