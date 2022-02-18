@@ -14,7 +14,7 @@
 	max-width: 250px;
 	justify-content: center;
 	margin: 0.5em;
-	background: grey;
+	background: black;
 	width: auto;
 	padding: 5px;
 }
@@ -45,4 +45,12 @@
 .exerciseDirections {
 	margin: 0% 10%;
 	line-height: 24px;
+}
+
+.how-to {
+	line-height: 1.5em;
+}
+
+button {
+	color: black;
 }
