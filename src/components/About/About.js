@@ -10,9 +10,12 @@ function About(props) {
 			<div className='whiteBk'>
 				<h1 className='pageTitle'>About</h1>
 				<p className='aboutBody'>
-					This app was created for both beginner and intermediate lifters.
-					Browse through an extensive list of over 200 exercises to learn more
-					about each one and how to propertly execute that specific exercise.
+					Fiit Trackr is a fitness tracker app that allows you to search through
+					a library of exercises and learn more about each one as well as how to
+					properly execute that specific exercise. Fiit Trackr allows you do
+					create your own workout routines and save them within the app! You
+					will also be able to track your weights, reps, and sets! This app is
+					perfect for both beginner and intermediate lifters!
 				</p>
 
 				{/* <p className='subtext'>Get Fiit</p> */}
